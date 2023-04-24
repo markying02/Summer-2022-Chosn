@@ -1,0 +1,22 @@
+.stepContainer {
+  max-width: 329px;
+  margin: auto;
+}
+
+.stepTitle {
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 20px;
+  background: linear-gradient(266.08deg, #e93744 12.21%, #dd1581 100.07%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  text-align: center;
+}
+
+.stepDescription {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
