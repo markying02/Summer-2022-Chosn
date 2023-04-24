@@ -1,0 +1,56 @@
+version: "3"
+services:
+  server:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    image: chosn-server
+    container_name: chosn-node-server
+    command: /node_modules/.bin/nodemon server.js
+    volumes:
+      - /Users/bradgardner/dev/chosn-backend/:/usr/src/app
+      - /node_modules
+    ports:
+      - "5000:5000"
+    depends_on:
+      - mongo
+    env_file: .env
+    # environment:
+    #   - NODE_ENV=development
+    networks:
+      - app-network
+  mongo:
+    image: mongo
+    volumes:
+      - data-volume:/data/db
+    ports:
+      - "27017:27017"
+    networks:
+      - app-network
+  client:
+    build:
+      context: ./src
+      dockerfile: Dockerfile
+    image: chosn-client
+    container_name: chosn-react-client
+    command: npm start
+    # volumes:
+    #   - /src
+    #   - /node_modules
+    #   - /public
+    depends_on:
+      - server
+    ports:
+      - "3000:3000"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  data-volume:
+  node_modules:
+  web-root:
+    driver: local
