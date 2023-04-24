@@ -1,0 +1,29 @@
+.goalComponent {
+  border: 3px solid transparent;
+  border-radius: 20px;
+  background-image: linear-gradient(#250041, #250041),
+    linear-gradient(266.08deg, #e93744 12.21%, #dd1581 100.07%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  height: 170px;
+  display: flex;
+  vertical-align: middle;
+}
+
+.goalComponentText {
+  width: 100%;
+  text-align: center;
+  align-self: center;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100%;
+  line-height: 30px;
+  background: linear-gradient(266.08deg, #e93744 12.21%, #dd1581 100.07%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  padding: 2px;
+  overflow-wrap: break-word;
+}

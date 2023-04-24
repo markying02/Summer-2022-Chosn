@@ -1,0 +1,48 @@
+.ui.checkbox input.hidden + label {
+  color: white !important;
+  background: transparent !important;
+}
+
+.ui.checkbox label::before {
+  background-color: transparent !important;
+  border: 2px solid #e93744 !important;
+}
+
+label {
+  transform: scale(1.25);
+}
+
+.ui.radio.checkbox input:checked ~ .box:before,
+.ui.radio.checkbox input:checked ~ label:before {
+  background: #e93744 !important;
+  border: 2px solid #e93744 !important;
+}
+
+.checked label {
+  font-weight: bold;
+}
+
+.ui.checkbox input:checked ~ .box:after,
+.ui.checkbox input:checked ~ label:after {
+  background-color: #e93744 !important;
+}
+
+.radio {
+  align-self: center !important;
+  text-align: center !important;
+}
+
+.submitBtnContainer {
+  padding-left: 32px !important;
+}
+
+.container {
+  align-items: center !important;
+}
+
+.identity-error-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}

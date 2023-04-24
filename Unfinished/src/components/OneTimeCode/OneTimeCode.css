@@ -1,0 +1,68 @@
+.onetimecode-container {
+  background: #250041;
+  padding: 15%;
+  width: 100%;
+}
+
+.oneTimeCodeText {
+  text-align: left;
+  width: 100%;
+  height: auto;
+  color: white;
+  top: 20%;
+  margin-bottom: 64px;
+}
+
+.numberInput {
+  width: 38px !important;
+  height: 38px !important;
+  margin-right: 1px !important;
+  padding: 0px !important;
+}
+
+.numberInput input:focus {
+  width: 38px;
+  height: 38px;
+  margin-right: 1px;
+  padding: 0px;
+}
+
+.numberInput input {
+  text-align: center !important;
+}
+
+.code-error {
+  color: white;
+  margin: 30px 0px 0px 6px !important;
+}
+
+.submit-btn-disabled {
+  border-radius: 5px !important;
+  width: 50%;
+  color: white !important;
+  font-size: 23px !important;
+  font-weight: 700 !important;
+  padding: 24px !important;
+  margin-top: 10px !important;
+  max-width: 200px;
+  cursor: not-allowed !important;
+}
+
+.error-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-circle {
+  background: linear-gradient(266.08deg, #e93744 12.21%, #dd1581 100.07%);
+  border-radius: 50%;
+  height: 22px;
+  width: 22px;
+  place-self: flex-end;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

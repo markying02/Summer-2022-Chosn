@@ -1,0 +1,51 @@
+.partnerInviteComponent {
+  border: 3px solid transparent;
+  border-radius: 20px;
+  background-image: linear-gradient(#250041, #250041),
+    linear-gradient(266.08deg, #e93744 12.21%, #dd1581 100.07%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  min-height: 215px;
+  vertical-align: middle;
+  margin: auto;
+  max-width: 400px;
+}
+
+.partnerInviteAcceptBtn {
+  width: 75px !important;
+  height: 24px !important;
+  border-radius: 25px !important;
+  font-size: 14px !important;
+  line-height: 24px !important;
+  float: right;
+  margin-right: 20px !important;
+  background: linear-gradient(
+    266.08deg,
+    #e93744 12.21%,
+    #dd1581 100.07%
+  ) !important;
+  padding: 0 !important;
+  cursor: pointer;
+}
+
+.partnerTitleText {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  color: white;
+  text-align: left;
+  padding-left: 16px;
+  padding-top: 16px;
+}
+
+.parterDescriptionText {
+  text-align: left;
+  color: white;
+  padding-left: 16px;
+}
+
+button.ui.white.button.partnerInviteAcceptBtn {
+  color: white;
+}

@@ -1,0 +1,34 @@
+.terms-container {
+  margin: 10px 10px 20px 10px;
+  height: 100%;
+}
+
+.terms-header {
+  color: white;
+  margin: 0 0 10px 0;
+}
+
+.terms-copy {
+  color: #c4c4c4;
+  padding: 10px;
+  text-align: center;
+  overflow-y: scroll;
+  height: 100vh;
+  margin: 0 0 3px 0;
+}
+
+.back-btn {
+  background: linear-gradient(
+    266.08deg,
+    #e93744 12.21%,
+    #dd1581 100.07%
+  ) !important;
+  border-radius: 5px !important;
+  width: 50%;
+  color: white !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  padding: 18px !important;
+  margin: 10px !important;
+  max-width: 100px;
+}

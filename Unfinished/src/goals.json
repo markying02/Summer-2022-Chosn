@@ -1,0 +1,180 @@
+{
+    "RelationshipType": {
+        "family": {
+            "goals": {
+                "physicalTouch": [
+                    "Give them a hug",
+                    "Pat their back",
+                    "Have a secret handshake",
+                    "Give them a high five",
+                    "Give them a head massage",
+                    "Touch their shoulder when you greet them"
+                ],
+                "wordsOfAffirmation": [
+                    "Tell them you're grateful for them",
+                    "Compliment them on their style",
+                    "Tell them something you have in common with them",
+                    "Tell them they are a wonderful friend",
+                    "Thank them for being there for you",
+                    "Compliment them on how well they accomplished a task"
+                ],
+                "giftGiving": [
+                    "Create a homemade gift",
+                    "Cook for them",
+                    "Create a playlist for them",
+                    "Give them a gift certificate for a car wash",
+                    "Bring something home from vacation",
+                    "Bring them their favorite candy"
+                ],
+                "actsOfService": [
+                    "Make their favorite treat",
+                    "Ask what you can help them with",
+                    "Leave a little note in their work stuff",
+                    "Complete an errand they hate",
+                    "Help them do something nice for someone they care about",
+                    "If you're out running errands call or text to ask if you can pick anything up"
+                ],
+                "qualityTime": [
+                    "Go on a picnic",
+                    "Watch the game or movie with no phones",
+                    "Read a book together and talk about it",
+                    "Go out to dinner together",
+                    "Play a game together",
+                    "Go do a physical activity together (bike ride, gym, frisbee, etc)"
+                ]
+            }
+        },
+        "friend": {
+            "goals": {
+                "physicalTouch": [
+                    "Give them a hug",
+                    "Pat their back",
+                    "Have a secret handshake",
+                    "Give them a high five",
+                    "Give them a head massage",
+                    "Touch their shoulder when you greet them"
+                ],
+                "wordsOfAffirmation": [
+                    "Tell them you're grateful for them",
+                    "Compliment them on their style",
+                    "Tell them something you have in common with them",
+                    "Tell them they are a wonderful friend",
+                    "Thank them for being there for you",
+                    "Compliment them on how well they accomplished a task"
+                ],
+                "giftGiving": [
+                    "Create a homemade gift",
+                    "Cook for them",
+                    "Create a playlist for them",
+                    "Give them a gift certificate for a car wash",
+                    "Bring something home from vacation",
+                    "Bring them their favorite candy"
+                ],
+                "actsOfService": [
+                    "Make their favorite treat",
+                    "Ask what you can help them with",
+                    "Leave a little note in their work stuff",
+                    "Complete an errand they hate",
+                    "Help them do something nice for someone they care about",
+                    "If you're out running errands call or text to ask if you can pick anything up"
+                ],
+                "qualityTime": [
+                    "Go on a picnic",
+                    "Watch the game or movie with no phones",
+                    "Read a book together and talk about it",
+                    "Go out to dinner together",
+                    "Play a game together",
+                    "Go do a physical activity together (bike ride, gym, frisbee, etc)"
+                ]
+            }
+        },
+        "romantic": {
+            "goals": {
+                "physicalTouch": [
+                    "Cuddle on the couch",
+                    "Stare into your partner's eyes for 1 minute",
+                    "Hold your partner's hand",
+                    "Slow dance",
+                    "Take a bath or shower together",
+                    "Give a massage"
+                ],
+                "wordsOfAffirmation": [
+                    "Thank them for saying the right thing",
+                    "Compliment them on something they're wearing",
+                    "Tell your partner something you like about them",
+                    "Tell your partner you are grateful for them",
+                    "Tell your partner you love spending time with them",
+                    "Compliment your partner on how well they accomplished a task"
+                ],
+                "giftGiving": [
+                    "Buy them lunch and bring it to work",
+                    "Have flowers sent to them for no reason",
+                    "Find a movie you can watch together",
+                    "Create a homemade gift",
+                    "Put together a book of quotes or phrases that remind you of them",
+                    "Create a playlist that reminds you of them"
+                ],
+                "actsOfService": [
+                    "Make breakfast in the morning",
+                    "Fill their car with gas",
+                    "Make the bed",
+                    "Pick up their favorite snacks from the store",
+                    "Help with something without being asked",
+                    "Ask what you can do to make their day better today"
+                ],
+                "qualityTime": [
+                    "Go on a picnic",
+                    "Take a walk around the block and talk",
+                    "Read a book together and talk about it",
+                    "Go out to dinner together",
+                    "Talk, just talk. No phones. No social media",
+                    "Try a new restaraunt"
+                ]
+            }
+        },
+        "self": {
+            "goals": {
+                "physicalTouch": [
+                    "Get a manicure/pedicure",
+                    "Get a massage",
+                    "Take a bath",
+                    "Exercise",
+                    "Go for a walk",
+                    "Do 10 pushups"
+                ],
+                "wordsOfAffirmation": [
+                    "Write down something you're grateful for",
+                    "Journal",
+                    "Write down 5 things you like about yourself",
+                    "Say 'I love you' to yourself in the mirror",
+                    "Say 3 affirmations to yourself",
+                    "Ask a loved one what they like about you"
+                ],
+                "giftGiving": [
+                    "Treat yourself to a fancy meal",
+                    "Buy yourself something nice (within your budget!)",
+                    "Take a breath and look out the window",
+                    "Don't stay up late tonight!",
+                    "Give yourself the gift of a break today",
+                    "Say 'no' to something you don't want to do"
+                ],
+                "actsOfService": [
+                    "Do that task you've been procrastinating on",
+                    "Do a chore around the house",
+                    "Clean your room",
+                    "Find a volunteer activity to do this week",
+                    "Talk to someone you trust about a current challenge you're facing",
+                    "Commit to 1 goal/habit you want to adopt this week"
+                ],
+                "qualityTime": [
+                    "Take a nap",
+                    "Meditate",
+                    "Engage in a hobby/favorite pasttime",
+                    "Spend some time in nature",
+                    "Journal",
+                    "Read a book"
+                ]
+            }
+        }
+    }
+}

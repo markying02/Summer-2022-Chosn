@@ -1,0 +1,57 @@
+.relationshipRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  width: 100vw;
+  margin: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+.relationshipRowImage {
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  margin: 0 !important;
+}
+
+.relationshipRowText {
+  color: white;
+  margin-left: 16px;
+  width: 200px;
+  float: left;
+  text-align: left;
+}
+
+.relationshipRowRadio {
+  margin-left: -8px;
+}
+
+input[type="radio"]:after {
+  width: 16px;
+  height: 16px;
+  border-radius: 25px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: white;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid #dd1581;
+}
+
+input[type="radio"]:checked:after {
+  width: 16px;
+  height: 16px;
+  border-radius: 25px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #dd1581;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid #dd1581;
+}
