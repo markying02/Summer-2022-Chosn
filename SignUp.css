@@ -1,0 +1,344 @@
+.font {
+  font-family: "Open Sans", sans-serif;
+}
+
+.signinText {
+  text-align: left !important;
+  width: 100% !important;
+  font-size: 24 !important;
+  color: white !important;
+  top: 50% !important;
+  margin-bottom: 64px !important;
+}
+
+.loginLabel {
+  font-size: 24 !important;
+  font-weight: 500 !important;
+  text-align: left !important;
+  color: white !important;
+}
+
+.phoneInput {
+  background: #654b78 !important;
+  border-radius: 8px !important;
+  padding: 16px !important;
+  color: white !important;
+  padding-left: 64px !important;
+  border-width: 2px !important;
+  border-color: #654b78 !important;
+}
+
+.formLoginInput {
+  background: #654b78 !important;
+  border-radius: 8px !important;
+  padding: 16px !important;
+  color: white !important;
+  border-width: 2px !important;
+  border-color: #654b78 !important;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: darkgrey !important;
+  font-style: italic !important;
+  opacity: 1 !important; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: darkgrey !important;
+  font-style: italic !important;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: darkgrey !important;
+  font-style: italic !important;
+}
+
+.btnHolder {
+  width: 100% !important;
+  height: auto !important;
+  margin:auto !important;
+  position: absolute !important;
+  text-align: center !important;
+}
+
+.formSubmitBtn {
+  background: linear-gradient(
+    180deg,
+    #E93744 0%,
+    #DD1581 100%
+  ) !important;
+  border-radius: 15px !important;
+  height: 42px !important;
+  color: black !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  padding: 8px 16px !important;
+  width: 200px !important;
+  display:inline-block !important;
+}
+
+.form-submit-btn-disabled {
+  background: grey !important;
+  border-radius: 15px !important;
+  border-color: white;
+  height: 42px;
+  color: black !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  padding: 8px 16px !important;
+  width: 200px;
+  display:inline-block !important;
+}
+
+.backBtn {
+  background: linear-gradient(
+  180deg,
+  #250041 100%,
+  #DD1581 100%
+) !important;
+border-radius: 15px !important;
+border: 3px solid #DD1581 !important;
+width: 200px !important;
+height: 42px !important;
+color: white !important;
+font-size: 18px !important;
+font-weight: 700 !important;
+padding: 8px 16px !important;
+display:inline-block !important;
+margin-bottom: 7px !important;
+margin-right: 10px !important;
+}
+
+.smsMessage {
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  color: white !important;
+  margin-top: -8px !important;
+  text-align: left !important;
+}
+
+.smsMessageFont {
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  color: white !important;
+  text-align: left !important;
+}
+
+.signin-instead {
+  margin: 10px !important;
+  color: white !important;
+}
+
+.signin-link {
+  background: linear-gradient(266.08deg, #e93744 12.21%, #dd1581 100.07%) !important;
+  -webkit-background-clip: text !important; 
+  -moz-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  -moz-text-fill-color: transparent;
+  margin-bottom: 0 !important !important;
+}
+
+.signin-error {
+  color: white !important;
+  margin-bottom: 0 !important;
+  margin: 0 0 0 3px !important;
+}
+
+.error-container {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  float:left !important;
+}
+
+.error-circle {
+  background: linear-gradient(266.08deg, #e93744 12.21%, #dd1581 100.07%);
+  border-radius: 50%;
+  height: 22px;
+  width: 22px;
+  place-self: flex-end;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.terms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  margin: 10px 0 0 0;
+
+}
+
+.terms-text {
+  font-size: 12px;
+  text-align: left;
+  color: #c4c4c4;
+  margin: 0;
+}
+
+.terms-link {
+  font-size: 12px;
+  text-align: center;
+  color: #c4c4c4;
+  font-weight: 700;
+}
+
+.template{
+  margin-top: 100px !important;
+}
+
+.background {
+  background-color: white !important;
+  width:100% !important;
+  position:relative;
+}
+
+.bigBox {
+  margin:0 auto!important;
+  width:1000px !important;
+  position:inline-block!important;
+  top: 50px !important;
+}
+
+.imgContainer {
+  position: absolute;
+}
+
+.leftBox{
+  margin:auto !important;
+  left:20px !important;
+  width: 420px !important;
+  position:relative !important;
+  float:left !important;
+  z-index: 1 !important;
+}
+
+.newForm{
+  top:-30px !important;
+  bottom:-30px !important;
+}
+
+.login-container {
+  background: #250041;
+  padding: 15%;
+  width: 100%;
+}
+
+
+
+
+/* --------------------------------------------------------*/
+/* Mobile-specific elements */
+
+
+
+.mobileSigninText {
+  text-align: left !important;
+  width: 100% !important;
+  font-size: 30 !important;
+  color: white !important;
+  top: 50% !important;
+  margin-bottom: 40px !important;
+  margin-left:5% !important;
+}
+
+
+
+.headerHolder {
+  height:172 px !important;
+  width:100% !important;
+  background: #250041;
+  border-radius: 0 0 150px 0;
+  position: absolute !important;
+}
+
+
+.mobileContainer{
+  top:150px;
+  margin:auto !important;
+  width: 90% !important;
+  align-items: left !important;
+  position: relative !important;
+}
+
+
+
+.mobileLoginLabel {
+  font-size: 24 !important;
+  font-weight: 500 !important;
+  text-align: left !important;
+  color: black !important;
+}
+
+
+.mobileLoginInput {
+  background: #d2ccd8 !important;
+  border-radius: 8px !important;
+  padding: 16px !important;
+  color: #141519 !important;
+  border-width: 2px !important;
+  border-color: #d2ccd8 !important;
+}
+
+
+
+.mobilePhoneInput {
+  background: #d2ccd8 !important;
+  border-radius: 8px !important;
+  padding: 16px !important;
+  color: #141519 !important;
+  padding-left: 64px !important;
+  border-width: 2px !important;
+  border-color: #d2ccd8 !important;
+}
+
+.mobileBackBtn {
+  background: white;
+  border-radius: 15px !important;
+  border: 3px solid #DD1581 !important;
+  width: 200px !important;
+  height: 42px !important;
+  color: black !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  padding: 8px 16px !important;
+  display:inline-block !important;
+  margin-bottom: 7px !important;
+  margin-right: 20px !important;
+}
+
+
+.mobileSmsMessage {
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  color: black !important;
+  margin-top: -8px !important;
+  text-align: left !important;
+}
+
+
+.mobile-terms-text {
+  font-size: 12px !important;
+  text-align: left !important;
+  color: #726f77 !important;
+  margin: 0 !important;
+}
+
+.mobile-terms-link {
+  font-size: 12px !important;
+  text-align: center !important;
+  color: #726f77 !important;
+  font-weight: 700 !important;
+}
+
+.mobile-signin-error {
+  color: black !important;
+  margin-bottom: 0 !important;
+  margin: 0 0 0 3px !important;
+}
